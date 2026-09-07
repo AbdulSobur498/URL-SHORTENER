@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { postUrl , getUrl }  from "./urlRoutes.ts";
+import { postUrl , getUrl }  from "./urlRoutes.js";
 
 
 const router = Router();

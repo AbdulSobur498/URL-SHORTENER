@@ -1,8 +1,8 @@
 import express, { Request, Response, NextFunction  } from "express";
 import { Router } from "express";
-import { generateShortCode } from "../utils//generateShortCode";
-import { validateMiddleware } from "../middlewares/validateMiddleware";
-import pool from "../config/database";
+import { generateShortCode } from "../utils//generateShortCode.js";
+import { validateMiddleware } from "../middlewares/validateMiddleware.js";
+import pool from "../config/database.js";
 
  const apiRoutes = Router();
 

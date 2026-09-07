@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import urlRouters from "./routes/index";
+import urlRouters from "./src/routes/index.js";
 require("dotenv").config();
 
 const app = express();
